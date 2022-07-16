@@ -57,11 +57,11 @@ body {
 }
 
 .themeSwitch::before {
-    content: url(../img/icon/sun.png);
+    content: url(../img/sun.png);
     margin-top: 8px;
 }
 .themeSwitch.active::before {
-    content: url(../img/icon/moon.png);
+    content: url(../img/moon.png);
 }
 .row {
     margin-top: 120px;
