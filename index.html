@@ -55,7 +55,7 @@
               <img class="thumbnail" src="img/aku.jpeg">
             </div>
             <div class="textBox col-lg-7">
-              <h2>Hello, I am <span class = "auto-type">Daffa</span></h2><br>
+              <h2>Hello, I am <span class = "auto-type"></span></h2><br>
               <h5>Web Developer | Teknisi Komputer</h5><br>
               <p>
                 Halo Nama Saya Muhammad Daffa, Saya adalah seorang Junior Web Developer dan juga Junior IT Technical Support.
@@ -182,4 +182,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     -->
   </body>
+	<script>
+    // Auto type
+    var typed = new Typed(".auto-type", {
+        strings: ["Daffa", "Junior IT Technical Support", "Junior Frontend Developer"],
+        typeSpeed:70,
+        backSpeed:70,
+        loop: true, 
+    })
+</script>
 </html>
