@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        :root {
+            --dark-bg: #1E1E1E;
+            --secondary-bg: #2D2D2D;
+            --text-color: #FFFFFF;
+            --accent-blue: #007BFF;
+            --accent-red: #FF4C4C;
+            --accent-green: #00CC66;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+body {
+    
+    
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 80px;
+}
+.profileImage {
+    margin-top: 50px;
+    width: 200px; 
+}
+
+.profile h2 {
+    color: black;
+}
+
+.profile h4 {
+    color: black;
+}
+
+.profile p {
+    margin-top: 50px;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 10%;
+}
+
+.workexp {
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    margin-bottom: 10%;
+}
+
+.workexp h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: black;
+
+}
+
+.year {
+    font-size: 18px;
+    color: black;
+}
+
+.list {
+  border-left: 1px solid gray;
+  list-style: none;
+  margin-left: 20px;
+  padding-top: 20px
+}
+ /* https://www.computerhope.com/issues/ch001705.htm */
+.list .item {
+  background: url(https://www.computerhope.com/issues/pictures/bullet.gif) no-repeat top left;
+  background-position: top left;
+  padding: 0 0 4px 60px;
+  margin-left: 1em;
+  position: relative;
+  right: 60px;
+  margin-bottom: 10px;
+  top: 10px;
+}
+
+.card-component {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1em;
+  max-width: 700px;
+  font-family: Arial;
+  position: relative;
+  bottom: 20px;
+}
+
+.card-component .year {}
+
+.card-component .title {
+  font-size: 20px;
+  color: black;
+}
+
+.card-component .text {
+  color: gray;
+}
